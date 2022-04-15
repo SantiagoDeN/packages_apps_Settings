@@ -179,13 +179,13 @@
     </string-array>
 
     <string-array name="app_lock_timeout_values" translatable="false">
-        <item>5000</item>
-        <item>10000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
+        <item>@string/app_lock_5_seconds</item>
+        <item>@string/app_lock_10_seconds</item>
+        <item>@string/app_lock_30_seconds</item>
+        <item>@string/app_lock_1_minute</item>
+        <item>@string/app_lock_5_minutes</item>
+        <item>@string/app_lock_10_minutes</item>
+        <item>@string/app_lock_30_minutes</item>
     </string-array>
 
 </resources>
