@@ -46,6 +46,7 @@ android_library {
 
     srcs: [
         "src/**/*.java", 
+        "src/**/*.kt",
         "SnowHouse/src/**/*.java",
         "SnowHouse/src/**/*.kt",
         ],
@@ -68,6 +69,7 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.fragment_fragment-ktx",
+        "androidx.preference_preference-ktx",
         "androidx.cardview_cardview",
         "androidx.preference_preference",
         "androidx.recyclerview_recyclerview",
