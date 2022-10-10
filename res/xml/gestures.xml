@@ -115,7 +115,7 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
-    <Preference
+<!--    <Preference
         android:key="touchscreen_gesture_settings"
         android:persistent="false"
         android:title="@string/touchscreen_gesture_settings_title"
@@ -125,5 +125,5 @@
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
-    </Preference>
+    </Preference> -->
 </PreferenceScreen>
