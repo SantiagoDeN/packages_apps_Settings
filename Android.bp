@@ -51,6 +51,7 @@ android_library {
           ],
     resource_dirs: ["res",
                     "Pextension/res",
+        "TouchGestures/res"
     ],
 
     aaptflags: ["--extra-packages org.pixelextended.pextension",
